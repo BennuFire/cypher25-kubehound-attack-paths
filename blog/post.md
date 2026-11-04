@@ -411,8 +411,9 @@ shapes are even. **When you enumerate, give a selective target its own hop.**
 
 ## Try it yourself
 
-Everything, from building the cluster to the benchmarks, is in the project repository
-(`cluster/`, `scripts/`, `queries/`, `blog/results/`). <!-- TODO: repo link -->
+Everything, from building the cluster to the benchmarks, is in the
+[project repository](https://github.com/BennuFire/cypher25-kubehound-attack-paths)
+(`cluster/`, `scripts/`, `queries/`, `blog/results/`).
 
 ## Data and credits
 
