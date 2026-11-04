@@ -1,0 +1,10 @@
+container,cheapest,cheapestPaths,pathsInBudget
+pod-create-pod,1.5,1,2
+endpoints-pod,2.5,1,154
+nsenter-pod,2.5,1,192
+host-read-exploit-pod,3.0,10,10
+host-write-exploit-pod,3.0,14,15
+priv-pod,3.5,1,6
+rolebind-pod-crb-cr-crb-cr,3.5,55,110
+rolebind-pod-crb-cr-rb-cr,3.5,55,110
+rolebind-pod-crb-cr-rb-r,3.5,54,108

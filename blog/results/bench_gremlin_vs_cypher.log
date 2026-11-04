@@ -1,0 +1,32 @@
+
+== critical_paths: containers of tenant-001 -> first critical PermissionSet (KubeHound DSL criticalPaths)
+h=1  gremlin-janusgraph   paths=           0        12.1 ms  ok
+h=1  neo4j-local          paths=           0         9.1 ms  ok
+h=2  gremlin-janusgraph   paths=           1        68.2 ms  ok
+h=2  neo4j-local          paths=           1        15.8 ms  ok
+h=3  gremlin-janusgraph   paths=         176       316.8 ms  ok
+h=3  neo4j-local          paths=         176        21.1 ms  ok
+h=4  gremlin-janusgraph   paths=         458       968.9 ms  ok
+h=4  neo4j-local          paths=         458        49.0 ms  ok
+h=5  gremlin-janusgraph   paths=       28102      3281.9 ms  ok
+h=5  neo4j-local          paths=       28102        93.8 ms  ok
+h=6  gremlin-janusgraph   paths=        None    timeout
+h=6  neo4j-local          paths=     1802392       906.8 ms  ok
+h=7  neo4j-local          paths=        None    timeout
+
+== container_to_node: containers of tenant-001 -> first Node (KubeHound docs, 'basic attack paths')
+h=1  gremlin-janusgraph   paths=          10         6.9 ms  ok
+h=1  neo4j-local          paths=          10         8.6 ms  ok
+h=2  gremlin-janusgraph   paths=          12        12.5 ms  ok
+h=2  neo4j-local          paths=          12         6.9 ms  ok
+h=3  gremlin-janusgraph   paths=          12        20.0 ms  ok
+h=3  neo4j-local          paths=          12         6.8 ms  ok
+h=4  gremlin-janusgraph   paths=          12        41.4 ms  ok
+h=4  neo4j-local          paths=          12        10.5 ms  ok
+h=5  gremlin-janusgraph   paths=          12       331.6 ms  ok
+h=5  neo4j-local          paths=          12         8.1 ms  ok
+h=6  gremlin-janusgraph   paths=          12     40582.2 ms  ok
+h=6  neo4j-local          paths=          12        34.9 ms  ok
+h=7  gremlin-janusgraph   paths=        None    timeout
+h=7  neo4j-local          paths=         222      1847.9 ms  ok
+h=8  neo4j-local          paths=        None    timeout

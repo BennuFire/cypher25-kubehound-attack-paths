@@ -1,0 +1,11 @@
+container,target,effort,hops,moves,techniques
+pod-create-pod,create-pods::pod-create-pods,1.5,2,"['IDENTITY_ASSUME', 'PERMISSION_DISCOVER']","['T1078', 'T1069']"
+pod-create-pod,create-pods::pod-create-pods,2.0,3,"['VOLUME_DISCOVER', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1613', 'T1552', 'T1069']"
+endpoints-pod,system:certificates.k8s.io:certificatesigningrequests:selfnodeclient::kubeadm:node-autoapprove-certificate-rotation,2.5,3,"['CE_NSENTER', 'IDENTITY_ASSUME', 'PERMISSION_DISCOVER']","['T1611', 'T1078', 'T1069']"
+nsenter-pod,system:certificates.k8s.io:certificatesigningrequests:selfnodeclient::kubeadm:node-autoapprove-certificate-rotation,2.5,3,"['CE_NSENTER', 'IDENTITY_ASSUME', 'PERMISSION_DISCOVER']","['T1611', 'T1078', 'T1069']"
+endpoints-pod,system:node-proxier::kubeadm:node-proxier,3.0,4,"['CE_NSENTER', 'VOLUME_ACCESS', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1611', 'T1613', 'T1552', 'T1069']"
+endpoints-pod,argocd-application-controller::argocd-application-controller,3.0,4,"['CE_NSENTER', 'VOLUME_ACCESS', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1611', 'T1613', 'T1552', 'T1069']"
+endpoints-pod,create-pods::pod-create-pods,3.0,4,"['CE_NSENTER', 'VOLUME_ACCESS', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1611', 'T1613', 'T1552', 'T1069']"
+endpoints-pod,create-pods::pod-create-pods,3.0,4,"['CE_NSENTER', 'VOLUME_ACCESS', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1611', 'T1613', 'T1552', 'T1069']"
+endpoints-pod,create-pods::pod-create-pods,3.0,4,"['CE_NSENTER', 'VOLUME_ACCESS', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1611', 'T1613', 'T1552', 'T1069']"
+endpoints-pod,kindnet::kindnet,3.0,4,"['CE_NSENTER', 'VOLUME_ACCESS', 'TOKEN_STEAL', 'PERMISSION_DISCOVER']","['T1611', 'T1613', 'T1552', 'T1069']"

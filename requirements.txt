@@ -1,0 +1,5 @@
+pandas
+neo4j
+python-dotenv
+gremlinpython
+pyyaml

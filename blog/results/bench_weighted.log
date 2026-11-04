@@ -1,0 +1,116 @@
+
+== unweighted 
+h=5  gremlin-janusgraph   paths=     28102      3252.4 ms  ok
+h=5  neo4j-local          paths=     28102       111.8 ms  ok
+h=6  gremlin-janusgraph   paths=      None    timeout
+h=6  neo4j-local          paths=   1802392       871.2 ms  ok
+h=7  neo4j-local          paths=      None    timeout
+
+== cap 1
+h=5  gremlin-janusgraph   paths=       352       376.1 ms  ok
+h=5  neo4j-local          paths=       352        34.1 ms  ok
+h=6  gremlin-janusgraph   paths=       385       585.7 ms  ok
+h=6  neo4j-local          paths=       385       118.6 ms  ok
+h=7  gremlin-janusgraph   paths=       674       875.0 ms  ok
+h=7  neo4j-local          paths=       674       763.6 ms  ok
+h=8  gremlin-janusgraph   paths=       697      1604.5 ms  ok
+h=8  neo4j-local          paths=       697       743.9 ms  ok
+h=10 gremlin-janusgraph   paths=      1842      9403.0 ms  ok
+h=10 neo4j-local          paths=      1842      1487.2 ms  ok
+h=15 gremlin-janusgraph   paths=      None    timeout
+h=15 neo4j-local          paths=      None    timeout
+
+== cap 2
+h=5  gremlin-janusgraph   paths=     16827      2941.3 ms  ok
+h=5  neo4j-local          paths=     16827        73.2 ms  ok
+h=6  gremlin-janusgraph   paths=      None    timeout
+h=6  neo4j-local          paths=   1061494       567.7 ms  ok
+h=7  neo4j-local          paths=      None    timeout
+
+== budget 3
+h=5  gremlin-janusgraph   paths=        46      1360.7 ms  ok
+h=5  neo4j-local          paths=        46        54.9 ms  ok
+h=6  gremlin-janusgraph   paths=        46      1337.2 ms  ok
+h=6  neo4j-local          paths=        46        77.5 ms  ok
+h=7  gremlin-janusgraph   paths=        46      1321.4 ms  ok
+h=7  neo4j-local          paths=        46        77.5 ms  ok
+h=8  gremlin-janusgraph   paths=        46      1303.6 ms  ok
+h=8  neo4j-local          paths=        46        78.4 ms  ok
+h=10 gremlin-janusgraph   paths=        46      1301.7 ms  ok
+h=10 neo4j-local          paths=        46        87.6 ms  ok
+h=15 gremlin-janusgraph   paths=        46      1390.6 ms  ok
+h=15 neo4j-local          paths=        46       114.8 ms  ok
+
+== budget 4
+h=5  gremlin-janusgraph   paths=       707      2753.8 ms  ok
+h=5  neo4j-local          paths=       707        93.4 ms  ok
+h=6  gremlin-janusgraph   paths=       707      9790.1 ms  ok
+h=6  neo4j-local          paths=       707       341.5 ms  ok
+h=7  gremlin-janusgraph   paths=       707      9639.5 ms  ok
+h=7  neo4j-local          paths=       707       507.8 ms  ok
+h=8  gremlin-janusgraph   paths=       707      9833.8 ms  ok
+h=8  neo4j-local          paths=       707       536.8 ms  ok
+h=10 gremlin-janusgraph   paths=       707      9655.8 ms  ok
+h=10 neo4j-local          paths=       707       531.5 ms  ok
+h=15 gremlin-janusgraph   paths=       707      9719.4 ms  ok
+h=15 neo4j-local          paths=       707       565.9 ms  ok
+
+== budget 5
+h=5  gremlin-janusgraph   paths=     10751      4647.3 ms  ok
+h=5  neo4j-local          paths=     10751       143.8 ms  ok
+h=6  gremlin-janusgraph   paths=      None    timeout
+h=6  neo4j-local          paths=     10784      1314.9 ms  ok
+h=7  neo4j-local          paths=     10784      4825.3 ms  ok
+h=8  neo4j-local          paths=     10784      5545.3 ms  ok
+h=10 neo4j-local          paths=     10784      4988.2 ms  ok
+h=15 neo4j-local          paths=     10784      5294.1 ms  ok
+
+== budget 6
+h=5  gremlin-janusgraph   paths=     17576      5682.5 ms  ok
+h=5  neo4j-local          paths=     17576       160.5 ms  ok
+h=6  gremlin-janusgraph   paths=      None    timeout
+h=6  neo4j-local          paths=    101094      2105.5 ms  ok
+h=7  neo4j-local          paths=    101388     16646.9 ms  ok
+h=8  neo4j-local          paths=    101392     46600.9 ms  ok
+h=10 neo4j-local          paths=    101392     47794.5 ms  ok
+h=15 neo4j-local          paths=    101392     47523.6 ms  ok
+
+== budget 8
+h=5  gremlin-janusgraph   paths=     28102      6546.7 ms  ok
+h=5  neo4j-local          paths=     28102       169.8 ms  ok
+h=6  gremlin-janusgraph   paths=      None    timeout
+h=6  neo4j-local          paths=   1217790      3175.1 ms  ok
+h=7  neo4j-local          paths=      None    timeout
+
+== cap+budget 2/6
+h=5  gremlin-janusgraph   paths=     16804      5044.1 ms  ok
+h=5  neo4j-local          paths=     16804       102.0 ms  ok
+h=6  gremlin-janusgraph   paths=      None    timeout
+h=6  neo4j-local          paths=    100322      1608.1 ms  ok
+h=7  neo4j-local          paths=    100616     16124.2 ms  ok
+h=8  neo4j-local          paths=    100620     47821.7 ms  ok
+h=10 neo4j-local          paths=    100620     48230.5 ms  ok
+h=15 neo4j-local          paths=    100620     47691.5 ms  ok
+
+== budget_relsp 4
+h=5  neo4j-local          paths=       707       146.7 ms  ok
+h=6  neo4j-local          paths=       707      5096.7 ms  ok
+h=7  neo4j-local          paths=      None    timeout
+
+== budget_after 4
+h=5  neo4j-local          paths=       707       111.6 ms  ok
+h=6  neo4j-local          paths=       707      2372.3 ms  ok
+h=7  neo4j-local          paths=      None    timeout
+
+== single_qpp 
+h=5  neo4j-local          paths=     28102       265.7 ms  ok
+h=6  neo4j-local          paths=   1802392     15809.1 ms  ok
+h=7  neo4j-local          paths=      None    timeout
+
+== single_qpp_budget 4
+h=5  neo4j-local          paths=       707       141.9 ms  ok
+h=6  neo4j-local          paths=       707       307.0 ms  ok
+h=7  neo4j-local          paths=       707       320.9 ms  ok
+h=8  neo4j-local          paths=       707       299.4 ms  ok
+h=10 neo4j-local          paths=       707       335.7 ms  ok
+h=15 neo4j-local          paths=       707       308.1 ms  ok
